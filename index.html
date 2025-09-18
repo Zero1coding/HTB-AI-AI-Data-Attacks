@@ -1,4 +1,24 @@
-<html><head></head><body>
+<html><head>
+  <title>AI Data Attacks - With Logo</title>
+  <!-- Add favicon -->
+  <link rel="icon" type="image/png" href="26419337-a62e-46cf-be34-5a32c1ac9492.png">
+
+  <script>
+    // Print full favicon path
+    window.onload = () => {
+      const favicon = document.querySelector("link[rel='icon']").href;
+      console.log("Favicon full path:", favicon);
+
+      // Show path on page too
+      const div = document.createElement("div");
+      div.style.margin = "10px";
+      div.style.color = "green";
+      div.innerText = "Favicon path: " + favicon;
+      document.body.prepend(div);
+    };
+  </script>
+</head>
+<body>
   <div class="container">
 <link rel="stylesheet" href="modules\style.css">
 
